@@ -27,3 +27,5 @@ GitHub Actions builds the debug APK in the cloud.
 APK output: `app/build/outputs/apk/debug/app-debug.apk`
 
 No signing credentials are included.
+
+Build workflow trigger: automated debug APK build and artifact upload are enabled on pushes to `main`.
